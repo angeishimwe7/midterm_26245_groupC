@@ -4,6 +4,21 @@
 
 A comprehensive Spring Boot application demonstrating advanced JPA relationships, pagination, sorting, and RESTful API design using Rwanda's administrative structure as a real-world use case.
 
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/angeishimwe7/midterm_26245_groupC.git
+cd poratlmanagement
+
+# Configure database in src/main/resources/application.properties
+# Then run:
+.\mvnw.cmd spring-boot:run
+
+# Test API:
+# GET http://localhost:8080/api/locations/type/PROVINCE
+```
+
 ---
 
 ## Table of Contents
@@ -499,7 +514,7 @@ User → Location (Village) → Cell → Sector → District → Province
 
 ### Base URL
 ```
-http://localhost:8089/api
+http://localhost:8080/api
 ```
 
 ### Location APIs
@@ -607,7 +622,7 @@ GET /api/users/exists/username/john_doe
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/poratlmanagement.git
+git clone https://github.com/angeishimwe7/midterm_26245_groupC.git
 cd poratlmanagement
 ```
 
@@ -638,7 +653,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
 # Server Port
-server.port=8089
+server.port=8080
 ```
 
 #### 4. Build and Run
@@ -731,12 +746,12 @@ curl -X GET http://localhost:8089/api/users/province/code/KG
 ### Common Issues
 
 #### 1. Port Already in Use
-**Error:** `Port 8089 was already in use`
+**Error:** `Port 8080 was already in use`
 
 **Solution:**
 ```properties
 # Change port in application.properties
-server.port=8090
+server.port=8080
 ```
 
 #### 2. Database Connection Failed
