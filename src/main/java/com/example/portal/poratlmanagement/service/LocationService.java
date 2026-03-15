@@ -2,8 +2,8 @@ package com.example.portal.poratlmanagement.service;
 
 import com.example.portal.poratlmanagement.dto.LocationDTO;
 import com.example.portal.poratlmanagement.dto.PagedResponseDTO;
-import com.example.portal.poratlmanagement.entity.Location;
-import com.example.portal.poratlmanagement.entity.Location.LocationType;
+import com.example.portal.poratlmanagement.model.Location;
+import com.example.portal.poratlmanagement.model.Location.LocationType;
 import com.example.portal.poratlmanagement.repository.LocationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

@@ -1,8 +1,8 @@
 package com.example.portal.poratlmanagement.service;
 
 import com.example.portal.poratlmanagement.dto.UserProfileDTO;
-import com.example.portal.poratlmanagement.entity.User;
-import com.example.portal.poratlmanagement.entity.UserProfile;
+import com.example.portal.poratlmanagement.model.User;
+import com.example.portal.poratlmanagement.model.UserProfile;
 import com.example.portal.poratlmanagement.repository.UserProfileRepository;
 import com.example.portal.poratlmanagement.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

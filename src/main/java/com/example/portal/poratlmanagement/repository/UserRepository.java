@@ -1,6 +1,6 @@
 package com.example.portal.poratlmanagement.repository;
 
-import com.example.portal.poratlmanagement.entity.User;
+import com.example.portal.poratlmanagement.model.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

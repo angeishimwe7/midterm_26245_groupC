@@ -1,7 +1,7 @@
 package com.example.portal.poratlmanagement.repository;
 
-import com.example.portal.poratlmanagement.entity.Location;
-import com.example.portal.poratlmanagement.entity.Location.LocationType;
+import com.example.portal.poratlmanagement.model.Location;
+import com.example.portal.poratlmanagement.model.Location.LocationType;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;

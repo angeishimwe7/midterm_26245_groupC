@@ -1,6 +1,6 @@
 package com.example.portal.poratlmanagement.repository;
 
-import com.example.portal.poratlmanagement.entity.UserProfile;
+import com.example.portal.poratlmanagement.model.UserProfile;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

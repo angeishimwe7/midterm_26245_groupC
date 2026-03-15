@@ -1,7 +1,7 @@
 package com.example.portal.poratlmanagement.config;
 
-import com.example.portal.poratlmanagement.entity.*;
-import com.example.portal.poratlmanagement.entity.Location.LocationType;
+import com.example.portal.poratlmanagement.model.*;
+import com.example.portal.poratlmanagement.model.Location.LocationType;
 import com.example.portal.poratlmanagement.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

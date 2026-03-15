@@ -1,7 +1,7 @@
 package com.example.portal.poratlmanagement.service;
 
 import com.example.portal.poratlmanagement.dto.RoleDTO;
-import com.example.portal.poratlmanagement.entity.Role;
+import com.example.portal.poratlmanagement.model.Role;
 import com.example.portal.poratlmanagement.repository.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

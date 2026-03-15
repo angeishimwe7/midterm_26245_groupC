@@ -1,6 +1,6 @@
 package com.example.portal.poratlmanagement.repository;
 
-import com.example.portal.poratlmanagement.entity.Role;
+import com.example.portal.poratlmanagement.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

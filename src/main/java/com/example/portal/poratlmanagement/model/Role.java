@@ -1,4 +1,4 @@
-package com.example.portal.poratlmanagement.entity;
+package com.example.portal.poratlmanagement.model;
 
 import jakarta.persistence.*;
 import lombok.*;
